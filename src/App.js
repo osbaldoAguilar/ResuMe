@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Dashboard from "./containers/Dashboard";
 import * as ROUTES from "./constants/routes.js";
 import About from "./containers/About";
+import Resume from "./containers/Resume";
+
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
           <Switch>
             <Route exact path={ROUTES.HOME} component={Dashboard} />
             <Route exact path={ROUTES.ABOUT} component={About} />
+            <Route exact path={ROUTES.RESUME} component={Resume} />
           </Switch>
           <Footer />
         </Router>

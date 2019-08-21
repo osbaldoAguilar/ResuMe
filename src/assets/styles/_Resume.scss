@@ -1,23 +1,40 @@
+
+
 .Resume_header{
-    text-align: left;
     font-size: 20px;
+    text-align: left;
+    padding-right: 5%;  
+    padding-left:5% 
 }
 .resume-name{
-    font-size: 30px
+    font-size: 20px;
+    text-align: left;
+    padding-right: 5%;  
+    padding-left:5% 
 }
 .Job{
     font-size: 20px;
     text-align: left;
+    padding-right: 5%;  
+    padding-left:5% 
     //color: green;
 }
 .Education{
     font-size: 20px;
     text-align: left;
+    padding-right: 5%;  
+    padding-left:5% 
     //color: red;
 }
 .Skills{
     font-size: 20px;
-    text-align: left
+    text-align: left;
+    padding-right: 5%;  
+    padding-left:5% 
+}
+.footer{
+    color:$blue;
+    background-color: aliceblue;
 }
 /*.resume-name{
     font-size: 20px;

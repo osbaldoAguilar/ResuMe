@@ -5,6 +5,7 @@ const Jobs = (props) => {
     const jobs= props.jobs
     const jobList = jobs.map((job)=>{
         return <Job job={job} />
+        return <br/>
     })
     return(
         <ul className="job-list">

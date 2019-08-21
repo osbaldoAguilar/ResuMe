@@ -8,6 +8,7 @@ const Education = (props) => (
         <div className="CourseName">{props.education.courseTitle}</div>
         <div className="SchoolStart">{props.education.educationStart}</div>
         <div className="SchoolEnd">{props.education.educationEnd}</div>
+        <br/>
     </div>
 )
 /*

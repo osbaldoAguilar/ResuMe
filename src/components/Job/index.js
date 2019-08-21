@@ -8,7 +8,7 @@ const Job = (props) => (
         <div className="jobDescript">{props.job.descript}</div>
         <div className="start">{props.job.dateStart}</div>
         <div className="end">{props.job.dateEnd}</div>
-        
+        <br/>
     </div>
 )
 /*

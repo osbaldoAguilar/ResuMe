@@ -45,7 +45,7 @@ const educationData = [
 
 
 const Resume = () => (
-    <div className="view-container about ">
+    <div className="view-container ">
          <ResumeHeader />
          <Jobs 
          jobs={jobData}
@@ -57,7 +57,7 @@ const Resume = () => (
          jobDes2="Job Descript: Installed fireplaces, mantels and slates to new construction and renovation both residential and commerical"
          start2="Start: June, 2010"
          end2="End: August 13, 2019"*/
-        />
+        /><br/>
          <Educations
          educations={educationData}
          />

@@ -7,7 +7,7 @@ const ResumeHeader = () => (
         <div className="email-address">osbaldoaguilar76@gmail.com</div>
         <div className="phone-number">(919) 673-6737</div>
         <div className="Github">
-            <a target="blank" href="https://github.com/osbaldoAguilar">github</a>
+            <a target="blank" href="https://github.com/osbaldoAguilar">github Repository</a>
             </div>
         <hr/>
     </div>

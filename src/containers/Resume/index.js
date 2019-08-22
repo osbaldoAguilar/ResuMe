@@ -124,7 +124,7 @@ const educationData = [
 
 /*
 const Resume = () => (
-    <div className="view-container about ">
+    <div className="view-container ">
          <ResumeHeader />
          <h6>Work Xp</h6>
          <Jobs 

@@ -1,5 +1,6 @@
+
+
 .Resume_header{
-    text-align: left;
     font-size: 20px;
     text-indent: 50px;
 }
@@ -12,6 +13,8 @@
 .Job{
     //font-size: 20px;
     text-align: left;
+    padding-right: 5%;  
+    padding-left:5% 
     //color: green;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
    // border-right: .15em solid orange; /* The typwriter cursor */

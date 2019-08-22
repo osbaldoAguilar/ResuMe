@@ -24,5 +24,10 @@ const Navigation = () => (
       </div>
   </nav>
 )
+/*
+<li>
+           <Link to={ROUTES.TICTAC}>Tictac</Link>
+          </li>
+          */
 
 export default Navigation

@@ -7,10 +7,14 @@ const Education = (props) => (
         
         <div className="SchoolName">{props.education.School}</div>
         <div className="CourseName">{props.education.Course}</div>
-        <div className="SchoolStart">{props.education.YearStart}</div>
-        <div className="SchoolEnd">{props.education.YearEnd}</div>
+        <div>Years Attended</div>
+        <div className="SchoolStart">{props.education.YearStarted}</div>
+        <div className="SchoolEnd">{props.education.YearEnded}</div>
+        <br/>
     </div>
 )
+
+export default Education;
 /*
 <div className="Highschool">South Granville Highschool<p>
             Grduated 2012</p></div>
@@ -21,4 +25,3 @@ const Education = (props) => (
         <div className="Course">CTD<p>
             Code the Dream Javascript and React Courses</p></div>
             */
-export default Education;

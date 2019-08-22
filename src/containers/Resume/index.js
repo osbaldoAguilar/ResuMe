@@ -65,10 +65,13 @@ class Resume extends React.Component{
 
             return(
                 <div>
+                    <ResumeHeader/>
+                        <h6>Work Xp</h6>
                     <Jobs
                         jobs={this.state.jobs}
                         />
                         <br/>
+                        <h6>Education</h6>
                     <Educations
                         educations={this.state.educations}
                         />

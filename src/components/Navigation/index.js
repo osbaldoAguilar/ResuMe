@@ -20,14 +20,15 @@ const Navigation = () => (
           <li>
             <Link to={ROUTES.RESUME}>Resume</Link>
           </li>
+          <li>
+           <Link to={ROUTES.TICTAC}>ticTac</Link>
+          </li>
         </ul>
       </div>
   </nav>
 )
 /*
-<li>
-           <Link to={ROUTES.TICTAC}>Tictac</Link>
-          </li>
+
           */
 
 export default Navigation

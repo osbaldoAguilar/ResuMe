@@ -13,17 +13,19 @@ class Resume extends React.Component{
                 loading:false,
                 jobs:[],
                 educations:[],
+                skills:[]
             }
     }
 /*************************************** */
     componentDidMount(){
         this.getJobs();
         this.getEducation();
+        this.getSkills();
     }
 
 /**************************************** */
     getJobs(){
-        const url= "https://api.airtable.com/v0/apppHw5AjzAhNzUkY/Jobs%20Had?maxRecords=3&view=Grid%20view"
+        const url= "https://api.airtable.com/v0/apppHw5AjzAhNzUkY/Jobs%20Had?"
         
             fetch(
                 url,
@@ -41,7 +43,7 @@ class Resume extends React.Component{
     }//END of getJobs
     /*********************************** */
     getEducation(){
-        const url= "https://api.airtable.com/v0/apppHw5AjzAhNzUkY/Education%20Had?maxRecords=3&view=Grid%20view"
+        const url= "https://api.airtable.com/v0/apppHw5AjzAhNzUkY/Education%20Had?"
         
             fetch(
                 url,
@@ -57,11 +59,27 @@ class Resume extends React.Component{
                 this.setState({educations:educations});
         })
     }//End of getEducation
+    /*************************************************************************** */
+    getSkills(){
+        const url= "https://api.airtable.com/v0/apppHw5AjzAhNzUkY/Skills%20Had??"
+        
+            fetch(
+                url,
+                    {
+                        headers:{ Authorization: "Bearer " + process.env.REACT_APP_AIRTABLE_KEY } 
+                    }
 
+                )
+        .then(response=> response.json())
+        .then(responseData=>{
+            console.log('Skill Data',responseData);
+                const skills = responseData.records;
+                this.setState({skills:skills});
+        })
+    }//End of getSkills
 
     render(){
-        console.log(this.state.jobs);
-        console.log(this.state.educations);
+        
 
             return(
                 <div>
@@ -74,6 +92,9 @@ class Resume extends React.Component{
                         <h6>Education</h6>
                     <Educations
                         educations={this.state.educations}
+                        />
+                    <Skills
+                        skills={this.state.skills}
                         />
                         <br/>
                 </div>

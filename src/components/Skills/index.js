@@ -1,4 +1,29 @@
-import React from 'react'
+import React from 'react';
+import Skill from '../Skill';
+
+const Skills = (props) => {
+    const skills=  props.skills
+    console.log('prop in skills',props);
+    const skillList = skills.map((skill)=>{
+        return <Skill skill={skill.fields} />
+    })
+    return(
+        <ul className="skill-list">
+            {skillList}
+        </ul>
+    )
+}
+export default Skills;
+
+
+
+
+
+
+
+
+
+/*import React from 'react'
 import { Link } from 'react-router-dom'
 //Template Layout used
 const Skills = () => (
@@ -12,3 +37,4 @@ const Skills = () => (
 )
 
 export default Skills;
+*/

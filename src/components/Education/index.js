@@ -4,10 +4,11 @@ import { tsPropertySignature } from '@babel/types';
 //rewrite from Template
 const Education = (props) => (
     <div className="Education">
-        <div className="SchoolName">{props.education.schoolName}</div>
-        <div className="CourseName">{props.education.courseTitle}</div>
-        <div className="SchoolStart">{props.education.educationStart}</div>
-        <div className="SchoolEnd">{props.education.educationEnd}</div>
+        
+        <div className="SchoolName">{props.education.School}</div>
+        <div className="CourseName">{props.education.Course}</div>
+        <div className="SchoolStart">{props.education.YearStart}</div>
+        <div className="SchoolEnd">{props.education.YearEnd}</div>
     </div>
 )
 /*

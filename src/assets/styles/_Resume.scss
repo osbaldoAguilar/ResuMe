@@ -1,23 +1,51 @@
 .Resume_header{
     text-align: left;
     font-size: 20px;
+    text-indent: 50px;
 }
 .resume-name{
-    font-size: 30px
+    font-size: 30px;
+    text-align: left;
+    background-color: #FFA;
+  color: #000;
 }
 .Job{
-    font-size: 20px;
+    //font-size: 20px;
     text-align: left;
     //color: green;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+   // border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 .Education{
-    font-size: 20px;
+    //font-size: 20px;
     text-align: left;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    //border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
     //color: red;
 }
 .Skills{
-    font-size: 20px;
-    text-align: left
+    //font-size: 20px;
+    text-align: left;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 /*.resume-name{
     font-size: 20px;

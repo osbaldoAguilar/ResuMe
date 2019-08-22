@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 const About_Me = () => (
     <div className="About_Me">
         <p>
-            Orign: Mexico<br></br>
-            DACA Recipient
+            <h4>About Me</h4>
+            Orign: Mexico<br/>
+            DACA Recipient<br/>
         </p>
     </div>
 )

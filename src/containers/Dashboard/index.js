@@ -18,9 +18,9 @@ class Dashboard extends React.Component {
     return (
       <div className="view-container dashboard">
         <div className="dashboard-content">
-          <p>Welcome to the Code the Dream starter kit. This barebones react boilerplate based off of create react app has react router 5 and SCSS installed. The rest is whatever you can dream up!</p>
+          <p>Welcome to the Dashboard</p>
           <div className="logo-wrapper">
-            <p>made with love by</p>
+            <p>made from Russia with love</p>
             <img src={labsLogo} />
           </div>
           <div className="cta-wrapper">

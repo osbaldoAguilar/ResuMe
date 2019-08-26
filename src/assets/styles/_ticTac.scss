@@ -1,0 +1,136 @@
+.game-board{
+    font-family: 'Source Code Pro', monospace;
+    margin: 100px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  .board-row{
+      text-align: center;
+  }
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    //font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    font-family: 'Source Code Pro', monospace;
+
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+body{
+    font: 14px "Century Gothic", Futura sans-serif;
+    margin: 20px;
+}
+
+ol, ul{
+    padding-left: 30px;
+}
+.board-row:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.status{ 
+    margin-bottom: 10px;
+}
+
+.sqaures{
+    background: #fff;
+    border:1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height:34px;
+    height:34px;
+    margin-right:-1px;
+    margin-top:-1px;
+    padding: 0;
+    text-align: center;
+    width:34px;
+    height: 100px;
+
+}
+.sqaure:focus{
+    outline:none;
+}
+.kbd-navigation .sqaure:focus{
+    background: #ddd;
+}
+.game{
+    display:flex;
+    flex-direction: row;
+}
+.game-info {
+    font-size: 30px;
+    margin-left:20px;
+}
+.game-board{
+    padding: 50px;
+}
+.board-row{
+    margin:0 auto;
+}
+.game-board div{
+    align-self: center;
+}
+.historyButtons{
+    font-size:16pt;
+    margin: 5px 10px;
+    background-color: $blue;
+    color: white;
+    padding:15px;
+    border-radius: 5px;
+    border-style:none;
+}
+.view-container_game-page{
+    width:1250px;
+}*/

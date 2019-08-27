@@ -8,6 +8,7 @@ import * as ROUTES from "./constants/routes.js";
 import About from "./containers/About";
 import Resume from "./containers/Resume";
 import ticTac from "./containers/ticTac";
+import Calculator from "./containers/Calculator";
 
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route exact path={ROUTES.ABOUT} component={About} />
             <Route exact path={ROUTES.RESUME} component={Resume} />
             <Route exact path={ROUTES.TICTAC} component={ticTac} />
+            <Route exact path={ROUTES.CALCULATOR} component={Calculator}/>
           </Switch>
           <Footer />
         </Router>

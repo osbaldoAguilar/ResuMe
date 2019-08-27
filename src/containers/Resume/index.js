@@ -1,10 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import ResumeHeader from '../../components/ResumeHeader'
 import Jobs from '../../components/Jobs'
 import Educations from '../../components/Educations'
 import Skills from '../../components/Skills'
-import About_Me from '../../components/About_Me'
 
 class Resume extends React.Component{
     constructor(props){
@@ -50,7 +48,6 @@ class Resume extends React.Component{
                     {
                         headers:{ Authorization: "Bearer " + process.env.REACT_APP_AIRTABLE_KEY } 
                     }
-
                 )
         .then(response=> response.json())
         .then(responseData=>{
@@ -93,6 +90,7 @@ class Resume extends React.Component{
                     <Educations
                         educations={this.state.educations}
                         />
+                        <h6>Skills</h6>
                     <Skills
                         skills={this.state.skills}
                         />

@@ -3,9 +3,10 @@ import React from 'react'
 
 const CalNumber =(props)=>(
 
-    <li calssName="Cal-Number">
+    <div className="CalNumber calButt" onClick={() =>
+        props.handleButtonClick(props.value)}>
         {props.value}
-    </li>
+    </div>
 )
 
 export default CalNumber

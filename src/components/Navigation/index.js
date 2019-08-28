@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import * as ROUTES from "../../constants/routes.js";
-import Logo from '../../assets/images/ctd-logo.png'
+import Logo from '../../assets/images/myLogo.png'
 
 
 const Navigation = () => (

@@ -1,5 +1,5 @@
 import React from "react";
-import labsLogo from '../../assets/images/ctd-labs-logo.png'
+import logo from '../../assets/images/myLogo.png'
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class Dashboard extends React.Component {
           <p>Welcome to the Dashboard</p>
           <div className="logo-wrapper">
             <p>made from Russia with love</p>
-            <img src={labsLogo} />
+            <img src={logo} />
           </div>
           <div className="cta-wrapper">
             <a target="_blank" href="https://github.com/CodeTheDream">View on Github</a>

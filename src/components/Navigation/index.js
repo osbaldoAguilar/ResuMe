@@ -21,10 +21,7 @@ const Navigation = () => (
             <Link to={ROUTES.RESUME}>Resume</Link>
           </li>
           <li>
-           <Link to={ROUTES.TICTAC}>ticTac</Link>
-          </li>
-          <li>
-            <Link to={ROUTES.CALCULATOR}>Calculator</Link>
+            <Link to={ROUTES.PORTFOLIO}>PORTFOLIO</Link>
           </li>
         </ul>
       </div>

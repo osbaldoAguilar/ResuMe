@@ -1,21 +1,21 @@
 .navigation {
     width: 100%;
     background: $blue;
-    position: relative;
+    position: left;
     padding: .5em;
 
     .logo-wrapper {
         width: 100px;
         top: 20px;
         left: 40px;
-        position: relative;
+        position: left;
     }
 
     ul {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        position: relative;
+        position: left;
         top: -20px;
         right: 10px;
     }
@@ -30,13 +30,13 @@
 
 .nav-content {
     max-width: $maxWidth;
-    margin: 0 auto;
+    margin: center;
 }
 
 .footer {
     background: $orange;
     color: white;
-    height: 50px;
+    height: 30px;
     margin-top: auto;
 }
 

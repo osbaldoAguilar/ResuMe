@@ -18,16 +18,16 @@ class Dashboard extends React.Component {
     return (
       <div className="view-container dashboard">
         <div className="dashboard-content">
-          <p>Welcome to the Dashboard</p>
+          <p>Welcome</p>
           <div className="logo-wrapper">
-            <p>made from Russia with love</p>
+            <p>made somewhere in Raleigh</p>
             <img src={logo} />
           </div>
-          <div className="cta-wrapper">
-            <a target="_blank" href="https://github.com/CodeTheDream">View on Github</a>
+          {/* <div className="cta-wrapper">
+            <a target="_blank" href="">View on Github</a> */}
           </div>
         </div>
-      </div>
+      // </div>
     );
   }
 }

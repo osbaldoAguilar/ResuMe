@@ -6,6 +6,7 @@ class Calculate extends React.Component{
         super(props)
         this.state = {
             screenDisplay:"",
+          //  auxNum:"",
             baseNum:""
         }
     }
@@ -29,6 +30,8 @@ class Calculate extends React.Component{
             baseNum:baseNum,
             screenDisplay:"",
             mathSymbol:'add'
+        },()=>{
+          //   console.log(BaseNum);
         })
     }
 
@@ -38,7 +41,7 @@ class Calculate extends React.Component{
             baseNum:baseNum,
             screenDisplay:"",
             mathSymbol:'minus'
-        })
+        },()=>{})
     }
 
     timesButt(){
@@ -124,16 +127,13 @@ class Calculate extends React.Component{
         return (
             <div className= 'calculator'>
                 <div className="screen "  >{this.state.screenDisplay}</div>
-                <div className="solve operator calButt"onClick={()=> this.solve()}>=</div>
-                
-                 
+                <div className="solve operator calButt"onClick={()=> this.solve()}>EQUALS</div> 
                 <div className="add operator calButt"onClick={()=>this.addButt()}>+</div>
                 <div className="subtract operator calButt"onClick={()=>this.minusButt()}>-</div>
                 <div className="divide operator calButt"onClick={()=>this.divideButt()}>/</div>
                 <div className="times operator calButt"onClick={()=>this.timesButt()}>X</div>
-                {/* <div className="percent operator calButt"onClick={()=>this.perButt()}>%</div> */}
                 {numList}
-                <div className="clear operator calButt" onClick={()=>this.clearDisplay()}>AC</div>
+                <div className="clear operator calButt" onClick={()=>this.clearDisplay()}>Erase</div>
             </div>
         )
     }

@@ -6,7 +6,7 @@ class Calculator extends React.Component{
     render(){
         return (
             <div className= 'calculator-container'>
-                <h6 >THE CALCULATOR</h6>
+                <h6 className="cal-title">THE CALCULATOR</h6>
                 <Calculate/>
                 </div>
         )
@@ -14,3 +14,4 @@ class Calculator extends React.Component{
 }
 
 export default Calculator
+ 

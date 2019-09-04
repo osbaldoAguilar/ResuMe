@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from "react-router-dom";
+import * as ROUTES from "../../constants/routes.js"
 //import img1 from '../../../assets/images/IMG_0003.jpg'
 
 const Card = props =>{
@@ -12,7 +14,7 @@ const Card = props =>{
                 <p className="card-text text-secondary">
                     {props.text}
                 </p>
-                <a href="#" className="btn btn-outline-success">Go Anywhere</a>
+               <a href={props.url} className="btn btn-outline-success">Go to React App</a>
             </div>
         </div>
     );

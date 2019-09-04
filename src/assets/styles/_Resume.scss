@@ -1,4 +1,20 @@
+body{
+    font-family: 'Acme', sans-serif;
+}
+.resume-outline{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap:10px;
+    grid-column-gap: 10px;
+    grid-template-areas:
+    "res-header  res-header  res-header res-header"
+    "job-att job-att job-att job-att"
+    "edu-att edu-att edu-att edu-att"
+    "skill-att skill-att skill-att skill-att"
+   // "skill-list skill-list skill-list skill-list";
+}
 .Resume_header{
+    grid-area: res-header;
     font-size: 20px;
     text-indent: 50px;
     text-align: left;
@@ -6,75 +22,46 @@
     color: #000;
 }
 .resume-name{
+    grid-area: res-header;
     font-size: 30px;
     text-align: left;
     background-color: rgb(223, 178, 223);
-  color: #000;
+    color: #000;
 }
 .Job{
+    grid-area: job-att;
     text-align: left;
-    padding-right: 5%;  
-    padding-left:5% 
+    // padding-right: 5%;  
+    // padding-left:5% 
 }
 .Education{
+    grid-area: edu-att;
     text-align: left;
-    padding-right: 5%;  
-    padding-left:5% 
+    // padding-right: 5%;  
+    // padding-left:5% 
 }
 .Skill{
+    grid-area: skill-att;
     text-align: left;
-    padding-right: 5%;  
-    padding-left:5% 
+    // padding-right: 5%;  
+    // padding-left:5% 
 }
-
-/*.resume-name{
-    font-size: 20px;
-    text-align: left
+.gitPic img{
+    width:10%;
+    height: auto;
+    float: left;
+    padding-left:30px;
 }
-.email-address{
-    font-size: 20px;
-    text-align: left
+.gitPic img:hover{
+    transform: scale(1.09);
+    transition: transform 0.3s ease;
 }
-.phone-number{
-    font-size: 20px;
-    text-align: left
-}*//*.job-discript{
-    font-size: 20px;
-    text-align: left
+.linkIn img{
+    width:10%;
+    height: auto;
+    padding-left: 2rem;
 }
-.start{
-    font-size: 20px;
-    text-align: left
+.linkIn img:hover{
+    transform: scale(1.09);
+    transition: transform 0.3s ease;
 }
-.end{
-    font-size: 20px;
-    text-align: left
-}
-.Highschool{
-    font-size: 20px;
-    text-align: left
-}
-.College{
-    font-size: 20px;
-    text-align: left
-}
-.Continue{
-    font-size: 20px;
-    text-align: left
-}
-.Course{
-    font-size: 20px;
-    text-align: left
-}
-.Code{
-    font-size: 20px;
-    text-align: left
-}
-.Speak{
-    font-size: 20px;
-    text-align: left
-}
-.Quality{
-    font-size: 20px;
-    text-align: left
-}*/

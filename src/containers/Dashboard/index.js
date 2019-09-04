@@ -8,9 +8,9 @@ class Dashboard extends React.Component {
       loading: false,
     };
   }
-  componentDidMount() {
+  // componentDidMount() {
     
-  }
+  // }
 
 
   render() {
@@ -18,9 +18,9 @@ class Dashboard extends React.Component {
     return (
       <div className="view-container dashboard">
         <div className="dashboard-content">
-          <p>Welcome</p>
+          <p>Welcome to My React App</p>
           <div className="logo-wrapper">
-            <p>made somewhere in Raleigh</p>
+            <p>made somewhere in the RTP Frontier Building</p>
             <img src={logo} />
           </div>
           {/* <div className="cta-wrapper">

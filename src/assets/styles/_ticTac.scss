@@ -1,6 +1,8 @@
 .game-board{
-    font-family: 'Source Code Pro', monospace;
-    margin: 100px;
+  font-family: 'Acme', sans-serif;
+  float:left;
+  margin: 100px;
+  //align-content: center;
   }
   
   ol, ul {
@@ -23,8 +25,8 @@
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 30px;
-    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
     line-height: 34px;
     height: 100px;
     margin-right: -1px;
@@ -32,7 +34,6 @@
     padding: 0;
     text-align: center;
     width: 100px;
-    font-family: 'Source Code Pro', monospace;
 
   }
   
@@ -45,8 +46,9 @@
   }
   
   .game {
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
+
   }
   
   .game-info {

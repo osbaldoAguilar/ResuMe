@@ -1,6 +1,27 @@
-._pCard div{
-    min-height: 20rem !important;
-    max-height: 30rem !important;
-    // transform: none !important;
-    // transition: none !important;
+.portfolio-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.container-fluid .row{
+    padding-top:6rem;
+}
+
+.pcard {
+    width:20rem;
+    margin: 50px;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.pcard-body{
+    padding: 3rem 0 !important;
+}
+
+
+
+
+
+

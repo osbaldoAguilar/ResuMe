@@ -3,7 +3,7 @@ body{
 }
 .resume-outline{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+   grid-template-columns: 4fr 2fr 2fr 1fr;
     grid-row-gap:10px;
     grid-column-gap: 10px;
     grid-template-areas:
@@ -11,46 +11,48 @@ body{
     "job-att job-att job-att job-att"
     "edu-att edu-att edu-att edu-att"
     "skill-att skill-att skill-att skill-att"
-   // "skill-list skill-list skill-list skill-list";
+   "skill-list skill-list skill-list skill-list";
 }
 .Resume_header{
     grid-area: res-header;
     font-size: 20px;
-    text-indent: 50px;
-    text-align: left;
+  //  text-indent: 50px;
+    text-align: center;
+    height: auto;
     background-color: rgb(223, 178, 223);
     color: #000;
 }
 .resume-name{
     grid-area: res-header;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     background-color: rgb(223, 178, 223);
     color: #000;
 }
-.Job{
+.job-list{
     grid-area: job-att;
-    text-align: left;
+    text-align: center;
     // padding-right: 5%;  
     // padding-left:5% 
 }
-.Education{
+.education-list{
     grid-area: edu-att;
-    text-align: left;
+    text-align: center;
     // padding-right: 5%;  
     // padding-left:5% 
 }
-.Skill{
+.skill-list{
     grid-area: skill-att;
-    text-align: left;
+    text-align: center;
     // padding-right: 5%;  
     // padding-left:5% 
 }
 .gitPic img{
     width:10%;
     height: auto;
-    float: left;
+    float: center;
     padding-left:30px;
+    margin-left: 20px;
 }
 .gitPic img:hover{
     transform: scale(1.09);
@@ -58,6 +60,7 @@ body{
 }
 .linkIn img{
     width:10%;
+    float: center;
     height: auto;
     padding-left: 2rem;
 }

@@ -31,7 +31,6 @@ class Calculate extends React.Component{
             screenDisplay:"",
             mathSymbol:'add'
         },()=>{
-          //   console.log(BaseNum);
         })
     }
 
@@ -62,15 +61,6 @@ class Calculate extends React.Component{
         })
     }
 
-    // perButt(){
-    //     const baseNum= this.state.screenDisplay;
-    //     this.setState({
-    //         baseNum:baseNum,
-    //         screenDisplay:"",
-    //         mathSymbol:'percent'
-    //     })
-    // }
-
     solve(){
         const mathSymbol = this.state.mathSymbol;
        // const subtract = this.state.mathSymbol;
@@ -98,27 +88,13 @@ class Calculate extends React.Component{
                     screenDisplay:base/newNum
                 });
                 break;
-            // case 'percent':
-            //     this.setState({
-            //         screenDisplay:base%newNum
-            //     });
-            //     break;
         }
-        // if(arithmetic==='add'){
-        //     this.setState({
-        //         screenDisplay: base + newNum
-        //     })
-        // }else if(subtract==='minus'){
-        //     this.setState({
-        //         screenDisplay: base-newNum
-        //     })
-        // }
+      
     }
 
     render(){
             const numAray=[9,8,7,6,5,4,3,2,1,".",0];
             const numList = numAray.map((num)=>{
-                // console.log(num)
                 return (
                     <CalNumber value={num} key={num} handleButtonClick={this.handleCalButtonClick}/>
                     )

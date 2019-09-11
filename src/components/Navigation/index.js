@@ -23,6 +23,9 @@ const Navigation = () => (
           <li>
             <Link to={ROUTES.PORTFOLIO}>Portfolio</Link>
           </li>
+          <li>
+            <Link to={ROUTES.TEAMPICKER}>TeamPicker</Link>
+          </li>
         </ul>
       </div>
   </nav>

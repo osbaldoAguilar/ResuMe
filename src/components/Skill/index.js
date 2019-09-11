@@ -11,6 +11,8 @@ const  Skill= (props) => {
     <div className="Skill">
         <div className="Skill">{props.skill.Skill}</div>
         <div className="Info">{props.skill.Info}</div>
+        <div className="Xp">{props.skill.Xp}</div>
+        <br/>
     </div>
 )
 }

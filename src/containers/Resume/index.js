@@ -81,20 +81,15 @@ class Resume extends React.Component{
             return(
                 <div className="resume-outline">
                     <ResumeHeader className="res-header"/>
-                        <h6>Work Xp</h6>
                     <Jobs className="job-att"
                         jobs={this.state.jobs}
                         />
-                        <br/>
-                        <h6>Education</h6>
                     <Educations className="edu-att"
                         educations={this.state.educations}
                         />
-                        <h6>Skills</h6>
                     <Skills className="skill-att"
                         skills={this.state.skills}
                         />
-                        <br/>
                 </div>
             )
     } 

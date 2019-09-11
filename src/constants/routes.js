@@ -5,3 +5,5 @@ export const RESUME = '/resume';
 export const TICTAC= '/Portfolio/ticTac';
 export const CALCULATOR = '/Portfolio/calculator';
 export const SOCIALCARD = '/Portfolio/SocialCard';
+export const TEAMPICKER = '/Portfolio/Teampicker';
+export const CONTACT = '/Contact';

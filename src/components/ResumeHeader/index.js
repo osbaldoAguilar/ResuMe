@@ -12,7 +12,7 @@ const ResumeHeader = () => (
             <a className="gitPic" target="blank" href="https://github.com/osbaldoAguilar"><img src={git}></img></a>
             </div>
             <a className="linkIn" target="blank" href="https://www.linkedin.com/in/osbaldo-aguilar-41ba06182/"><img src={link}></img></a>
-        <hr/>
+        <br/>
     </div>
 )
 

@@ -11,7 +11,9 @@ import Portfolio from "./containers/Portfolio"
 import Resume from "./containers/Resume";
 import ticTac from "./containers/ticTac";
 import Calculator from "./containers/Calculator";
-import SocialCard from "./containers/SocialCard"
+import SocialCard from "./containers/SocialCard";
+import Contact from "./containers/Contact"
+//import Teampicker from "./containers/Teampicker";
 
 
 
@@ -28,7 +30,7 @@ function App() {
             <Route exact path={ROUTES.TICTAC} component={ticTac} />
             <Route exact path={ROUTES.CALCULATOR} component={Calculator}/>
             <Route exact path={ROUTES.SOCIALCARD} component={SocialCard}/>
-
+            <Route exact path={ROUTES.CONTACT} component={Contact}/>
           </Switch>
           <Footer />
         </Router>

@@ -5,7 +5,6 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Dashboard from "./containers/Dashboard";
 import * as ROUTES from "./constants/routes.js";
-//import * as portRoutes from "./constants/portRoutes.js"
 import About from "./containers/About";
 import Portfolio from "./containers/Portfolio"
 import Resume from "./containers/Resume";

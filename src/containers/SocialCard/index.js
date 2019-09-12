@@ -9,22 +9,18 @@ class SocialCard extends React.Component{
    
     render(){
         return(
-            <div className="container-fluid d-flex justify-content-center">
-               <div className="row">
+            <div className="socialCard-wrapper">
                     
-                    <div className ="col-md-4">
                         <Card imgsrc={img1} title="Person One"
-                        text="Person 1 is an astronuant who made it to the Moon he is depressed"/>
-                    </div>
-                    <div className ="col-md-4">
+                        text="Image One has a picture of an astronaut on the moon"/>
+                    
+                    
                         <Card imgsrc={img2} title="Person Two"
-                        text="Person 2 is ridiculous and has a big ego"/>
-                    </div>
-                    <div className ="col-md-4">
+                        text="Image Two has a neon mask holding the moon in one hand"/>
+                    
+                    
                         <Card imgsrc={img3} title="Person Three"
-                        text="Person 3 is cold and very mean"/>
-                    </div>
-                </div>
+                        text="Image Three is of a skull with red and blue lines as if it were 3D"/>
             </div>
         );
     }
